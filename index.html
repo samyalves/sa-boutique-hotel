@@ -1,0 +1,336 @@
+<!doctype html>
+
+<html class="no-js" lang="pt" dir="ltr">
+
+  <head> 
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDES1060 Project 2</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.typekit.net/ocx6ztr.css">
+    <script src="https://kit.fontawesome.com/5ecb36192a.js" crossorigin="anonymous"></script>
+
+
+  </head>
+<body>
+                     <!-- Language Dropdown menu -->
+<header>
+  <div class="nav-wrapper">
+      <div class="sl-nav text-right" >
+            <ul>
+              <li><b>Language</b> <i class="fa fa-angle-down" aria-hidden="true"></i>
+        <div class="triangle"></div>
+                    <ul>
+                      <li></i> <span class="active">Portuguese</span></li>
+                      <li></i> <span class="active">English</span></li>
+                    </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+  </div> 
+                      <!-- Nav Bar  -->
+    <div class="grid-container">
+      <div class="grid-x align-middle">
+
+          <div class="cell medium-2 show-for-medium text-left">
+            <a href="#quote">A Amazônia</a>
+          </div>
+
+           <div class="cell medium-2 show-for-medium text-left">
+            <a href="#welcome">Sobre nós</a>
+          </div>
+
+           <div class="cell logo medium-4 text-center">
+            <img src="img/logo.png">
+          </div>
+
+           <div class="cell show-for-medium medium-2 text-right">
+            <a href="#quartos">Suítes</a>
+          </div>
+
+           <div class="cell show-for-medium medium-2 text-right">
+            <a href="#canoagem">Experiências</a>
+          </div>
+      </div>
+    </div>
+</header>
+
+                <!-- Hero image + button -->
+
+<section class="hero">
+  <div class="grid-container">
+      <div class="cell text-center">
+        <h1> Venha desvendar os encantos da Amazônia</h1>
+      </div>
+  </div>
+</section>
+          
+
+<section id="welcome">
+  <div class="grid-container">
+      <div class="cell medium-4 text-center">
+          <h1> Seja bem-vindo</h1>
+      </div>
+          <div class="cell medium-6 text-center">
+           <p>O Biribá Hotel combina o acolhimento de um hotel boutique com o desejo de seus hospedes de viverem experiências de vida únicas. Construído dentro da Mata Amazônica e localizado em Manaus, o Biribá Hotel proporciona ao publico o contato com a cultura brasileira e amazonense, além de apresentar a Amazônia de forma única. Assim como nosso nome revela nossa conexão com a cultura da Amazônia, também oferecemos aos nossos hóspedes oportunidades de se conectarem com a natureza, sem deixar de lado o conforto de um hotel idealizado para que você se sinta um verdadeiro nativo.</p>
+          </div>
+  </div>
+
+                <!-- Reservation Form -->
+  <div class="form">
+    <div class="grid-container">
+          <div class="grid-x">
+               <table class="table">
+              <thead>
+                <tr class="grid-x">
+                  <th class="cell text-center">
+                    <h3> Reserve sua melhor aventura hoje! </h3>
+                     <th class="cell small-6">
+                      <h5>Check in:</h5>
+                      <input type="text" class="span2" value="" id="dpd1">
+                      </th>
+                        <th class="cell small-6">
+                        <h5>Check out:</h5>
+                        <input type="text" class="span2" value="" id="dpd2">
+                         </th>
+                         </tr>
+                      <tr class="grid-x">
+                        <th class="cell">
+                          <input type="submit" class="submit button radius small" value="RESERVAR" data-open="confirmation-overlay">
+                        </th>
+                  </tr>        
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+                        <!-- POPUP WINDOW -->
+
+  <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="grid-x align-middle">
+          <div class="cell text-center">
+              <div class="overlay">
+                <h1>Reserva feita com sucesso!</h1>
+                <h3>Sua aventura em descobrir a Amazônia começa aqui. Esperamos ansiosos por sua presença em nosso hotel.
+                  <span class="dpd1"></span>
+                  <span class="dpd2"></span></h3>
+              </div>
+          </div>
+      </div>
+    <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+  </div>
+</section>
+
+
+<section id="quartos">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x grid-margin-y">
+          <div class="cell">
+            <h3>Suítes</h3>
+          </div>
+        </div>
+          <div class="grid-x grid-margin-x grid-margin-y">
+              <div class="cell medium-4">
+                <img src="img/hans-isaacson2.jpg" alt="Image by Hans Isaacson on Unsplash">
+                <h4>Taboca</h4>
+                <p> Venha desfrutar das belezas da Amazônia e aproveite nosso reconfortante quarto para exploradores que preferem suas jornadas solo.</p>
+              </div>
+
+              <div class="cell medium-4">
+                <img src="img/despina-galani.jpg" alt="Image by Despina Galani on Unsplash">
+                <h4>Catuaba </h4>
+                <p> Reserve nosso quarto para famílias, onde você e seus filhos possuem conforto após um dia longo explorando nossas atividades ao ar livre.</p>
+              </div>
+
+              <div class="cell medium-4">
+                 <img src="img/visualsofdana.jpg" alt="Image by Visual of Dana on Unsplash">
+                 <h4> Ieiocarpa Premium</h4>
+                <p> Conheça nosso quarto Ieiocarpa, que oferece à sua viagem uma experiência premium com muito mais conforto e elegância.</p>
+              </div>
+          </div>
+      </div>
+</section>
+
+<section id="quote">
+  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+    <div class="orbit-wrapper">
+        <div class="orbit-controls">
+          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+        </div>
+    <ul class="orbit-container">
+            <li class="is-active orbit-slide">
+              <figure class="orbit-figure">
+                   <div class="grid-container">
+                      <div class="grid-margin-y">
+                          <div class="cell medium-8 large-8 small-10 text-center">
+                            <h1> “Desmatar a Amazônia é o mesmo que tirar a vida.”</h1>
+                            <a class="button" href="#">A Amazônia</a>
+                          </div>
+                      </div>
+                    </div>
+              </figure>
+            </li>
+          <li class="orbit-slide">
+            <figure class="orbit-figure">
+            <div class="grid-container">
+                <div class="grid-margin-y">
+                    <div class="cell medium-8 large-8 small-10 text-center">
+                      <h1> "Meu nome é beleza, força e resiliência. Meu nome é Amazônia."</h1>
+                      <a class="button" href="#">A Amazônia</a>
+                    </div>
+                </div>
+              </div>
+            </figure>
+          </li>
+
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <div class="grid-container">
+            <div class="grid-margin-y">
+                <div class="cell medium-8 large-8 small-10 text-center">
+                  <h1> Saiba mais sobre como preservar a maior riqueza do Brasil e compartilhe a hashtag #SALVEAAMAZÔNIA</h1>
+                  <a class="button" href="#">A Amazônia</a>
+                </div>
+            </div>
+          </div>
+        </figure>
+      </li>
+    </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="canoagem">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x grid-margin-y">
+            <div class="cell medium-6 text-center">
+              <img src="img/nareeta-martin.jpg" alt="Image by Nareeta Martin on Unsplash">
+            </div>
+                <div class="cell medium-6 text-center">
+                  <h2>CANOAGEM PELO RIO AMAZONAS</h2>
+                  <p>Venha descobrir os encantos do maior rio do mundo em volume de água. O passeio perfeito para você se conectar com a natureza e apreciar uma das grandes belezas naturais do Brasil.</p>
+                  <a class="button" href="#">SAIBA MAIS</a>
+                </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="indios">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x grid-margin-y align-middle">
+          <div class="cell medium-6 small-order-2 medium-order-1 text-center">
+            <h2>VISITE OS INDÍGENAS</h2>
+                <p>Conheça a cultura de um povo tão importante pra história, presente e futuro do Brasil. Aprenda dialetos, danças e tradições gastronômicas dos Maku - os Dow, Hupda, Yuhupde, Nadöb. </p>
+                <a class="button" href="#">SAIBA MAIS</a>
+          </div>
+
+            <div class="cell medium-6 small-order-1 medium-order-2">
+                <img src="img/subvertivo-lab+junior-reis.png" alt="Image by Subvertivo Lab and Junior Reis on Unsplash">
+            </div>
+      </div>
+    </div>
+</section>
+
+<section class="floresta">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x grid-margin-y">
+            <div class="cell medium-6 text-center">
+              <img src="img/pexel-Roxanne- Shewchuk.jpeg" alt="Image by Roxanne Shewchuk on Pexel">
+            </div>
+            <div class="cell medium-6 text-center">
+                <h2>DESCOBRINDO A FLORESTA</h2>
+                <p>Venha se divertir em atividades ao ar livre que contempla a beleza da Mata Amazônica de forma única e que te proporcionam lindas paisagens.  </p>
+                <a class="button" href="#">SAIBA MAIS</a>
+            </div>
+      </div>
+    </div>
+</section>
+
+<section class="dentro">
+  <div class="cell medium-6 text-center">
+    <div class="grid-container">
+        <h1>DENTRO DO HOTEL</h1>
+        <div class="grid-x grid-margin-x grid-margin-y">
+
+            <div class="cell medium-4 text-center">
+              <img src="img/Yevhen Ptashnyk.jpg" alt="Image by Yevhen Ptashnyk on Unsplash">
+                <h4>STUDIO</h4>
+                <p>Espaço equipado com isolamento acústico e carregadores de diversos eletrônicos </p>
+            </div>
+
+            <div class="cell medium-4 ">
+              <img src="img/nathan-dumlao.jpg" alt="Image by Nathan Dumlao on Unsplash">
+              <h4>BAR & CAFÉ</h4>
+              <p>Bar e Café aberto 24 horas, pois qualquer hora é boa para apreciar uma boa bebida.</p>
+            </div>
+
+            <div class="cell medium-4">
+              <img src="img/jeff-siepman.jpg" alt="Image by Jeff Siepman.jpeg on Unsplash">
+              <h4>RESTAURANTE </h4>
+                <p>Restaurante aberto de 5:00 às 20:00. Café da manhã incluso, servido todos os dias.</p>
+            </div>
+        </div>
+    </div>
+  </div> 
+</section>
+
+<footer>
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x grid-margin-y">
+      <div class="cell logo medium-2 text-center">
+          <img src="img/logo.png">
+      </div>
+
+      <div class="cell medium-3 text-center">
+        <h5>ENDEREÇO</h5>
+        <p>Rua do Rubidio, 288 - Vila da Prata, Manaus - AM, 69030-530, Brazil</p>
+      </div>
+
+      <div class="cell medium-3 text-center">
+        <h5>CONTATO</h5>
+        <ul class="contactus">
+              <li><i class="fa-solid fa-phone"></i>+55 92 3236-7060</li>
+              <li><i class="fa-solid fa-envelope"></i>contact@baribahotel.com</li>
+        </ul>
+      </div>
+
+      <div class="cell medium-2 text-center">
+          <h5>REDES SOCIAIS</h5>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-tiktok"></i>
+      </div>
+
+      <div class="cell medium-2 text-center">
+          <a class="button" href="#">RESERVE JÁ</a>
+      </div>
+    </div>
+  </div>
+</footer>
+                <!-- DON'T REPLACE ANYTHING BELOW -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
